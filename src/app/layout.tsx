@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Gothic_A1 } from "next/font/google";
+import { Nanum_Gothic } from "next/font/google";
 import "./globals.css";
 
-const gothic = Gothic_A1({
+const gothic = Nanum_Gothic({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-gothic'
