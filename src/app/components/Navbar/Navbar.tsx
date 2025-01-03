@@ -21,7 +21,7 @@ const Navbar: React.FC<any> = () => {
     console.log("grid cols", gridCols)
 
     return (
-        <div className='fixed top-0 w-full bg-black'>
+        <div className='sticky top-0 w-full bg-black'>
             <div className='flex justify-between items-center text-[.625em] font-bold uppercase'>
                 <div className='block pl-2 md:hidden'>
                     <Hamburger className='text-white text-[20px]' />
@@ -31,7 +31,7 @@ const Navbar: React.FC<any> = () => {
                     <span className='px-2 text-white cursor-pointer'>Gibson App</span>
                     <span className='px-2 text-white cursor-pointer'>Find A Dealer</span>
                 </div>
-                <Logo className='font-[12px]' />
+                <Logo className='text-[50px]' />
                 <div className='flex'>
                     <Search className='text-white text-[20px] px-[10px]' />
                     <div className='hidden md:block'>
