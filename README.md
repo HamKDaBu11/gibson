@@ -4,19 +4,19 @@ A clone of the Gibson music company website, built using the latest Next.js 14 f
 
 ## Features
 
- - Modern Framework: Built using Next.js 14 for optimal performance and developer experience.
+ - **Modern Framework**: Built using Next.js 14 for optimal performance and developer experience.
 
- - Responsive Design: Ensures seamless usability across devices, including desktops, tablets, and smartphones.
+ - **Responsive Design**: Ensures seamless usability across devices, including desktops, tablets, and smartphones.
 
- - Dynamic Routing: Leverages Next.js’s app router for smooth page transitions and route management.
+ - **Dynamic Routing**: Leverages Next.js’s app router for smooth page transitions and route management.
 
- - Server and Client Rendering: Uses server-side rendering (SSR) and static site generation (SSG) for improved SEO and performance.
+ - **Server and Client Rendering**: Uses server-side rendering (SSR) and static site generation (SSG) for improved SEO and performance.
 
- - Component-Based Architecture: Implements reusable and maintainable components with React.
+ - **Component-Based Architecture**: Implements reusable and maintainable components with React.
 
- - API Integration: Fetches data dynamically via REST APIs or GraphQL for dynamic content.
+ - **API Integration**: Fetches data dynamically via REST APIs or GraphQL for dynamic content.
 
- - Image Optimization: Uses Next.js’s built-in image optimization for faster load times.
+ - **Image Optimization**: Uses Next.js’s built-in image optimization for faster load times.
 
  - Styling: Includes modern styling with TailwindCSS for rapid UI development and customizability.
 
@@ -30,8 +30,30 @@ Before you begin, ensure you have the following installed on your system:
 
  - [Git](https://git-scm.com/)
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow these steps to set up the project locally:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**:
+
+   ``git clone https://github.com/HamKDaBu11/gibson.git``
+ 
+   ``cd github-clone``
+
+2. **Install dependencies**: Using npm:
+
+   ``npm install``
+
+3. **Using yarn**:
+
+   ``yarn install``
+
+4. **Run the development server**: Using npm:
+
+   ``npm run dev``
+
+   Using yarn:
+
+   ``yarn dev``
+
+Open http://localhost:3000 in your browser to view the app.
