@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Gibson Clone Website
+
+A clone of the Gibson music company website, built using the latest Next.js 14 framework. This project aims to replicate the design and functionality of Gibson’s official website, with modern, scalable, and performant web development techniques.
 
 ## Getting Started
 
