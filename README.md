@@ -55,5 +55,25 @@ Follow these steps to set up the project locally:
    Using yarn:
 
    ``yarn dev``
+   
+   Open http://localhost:3000 in your browser to view the app.
 
-Open http://localhost:3000 in your browser to view the app.
+## TailwindCSS Setup
+
+TailwindCSS is used for styling in this project. It provides a utility-first CSS framework for rapid UI development. The configuration is pre-set, and you can start using it immediately.
+
+ 1. **Customizing TailwindCSS**: Update the tailwind.config.js file to extend styles or include additional plugins.
+
+ 2. **Using Tailwind Classes**: Apply Tailwind’s utility classes directly in your components for styling.
+
+For more details, visit the [TailwindCSS documentation](https://tailwindcss.com/docs/installation).
+
+## Acknowledgments
+
+ - [Gibson](https://www.gibson.com/en-US/) for inspiring this project.
+
+ - [Next.js](https://nextjs.org/) for the amazing framework.
+
+ - [TailwindCSS](https://tailwindcss.com/) for the incredible styling tools.
+
+ - The open-source community for tools and resources.
